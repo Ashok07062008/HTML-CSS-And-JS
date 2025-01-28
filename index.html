@@ -1,5 +1,6 @@
 <div id="box">
 </div>
+<button onclick="change()">Change color</button>
 <style>
     div{
         background-color: black;
@@ -7,3 +8,9 @@
         height:100px;
     }
 </style>
+<script>
+    var a = document.getElementById("box")
+    function change(){
+        a.style.backgroundColor("blue")
+    }
+</script>
